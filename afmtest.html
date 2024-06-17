@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pdf-section">
+            <div id="pdfViewer"></div>
+        </div>
+        <div class="exam-section">
+<div id="timer" class="fixed-top"><b>Time left: <span id="time">30:00</span></b></div>
+            <form id="examForm">
+                <table>
+                    <tr>
+                        <td class="name">NAME:</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td class="exam">EXAM:</td>
+                        <td><input type="text" name="exam"></td>
+                    </tr>
+                    <tr>
+                        <td class="date">DATE:</td>
+                        <td><input type="date" name="date"></td>
+                    </tr>
+                </table>
+                <table style="width:100%">
+                    <tr>
+                        
+                    </tr>
+                    <tr>
+                       <td></td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                    </tr>
+                 
+                    <tr>
+                        <td>1</td>
+                        <td><input type="checkbox" name="question1" value="A"></td>
+                        <td><input type="checkbox" name="question1" value="B"></td>
+                        <td><input type="checkbox" name="question1" value="C"></td>
+                        <td><input type="checkbox" name="question1" value="D"></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                          <td><input type="checkbox" name="question2" value="A"></td>
+                        <td><input type="checkbox" name="question2" value="B"></td>
+                        <td><input type="checkbox" name="question2" value="C"></td>
+                        <td><input type="checkbox" name="question2" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                   <td><input type="checkbox" name="question3" value="A"></td>
+                        <td><input type="checkbox" name="question3" value="B"></td>
+                        <td><input type="checkbox" name="question3" value="C"></td>
+                        <td><input type="checkbox" name="question3" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                         <td><input type="checkbox" name="question4" value="A"></td>
+                        <td><input type="checkbox" name="question4" value="B"></td>
+                        <td><input type="checkbox" name="question4" value="C"></td>
+                        <td><input type="checkbox" name="question4" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                         <td><input type="checkbox" name="question5" value="A"></td>
+                        <td><input type="checkbox" name="question5" value="B"></td>
+                        <td><input type="checkbox" name="question5" value="C"></td>
+                        <td><input type="checkbox" name="question5" value="D"></td>
+                    </tr>
+ <tr>
+                        <td></td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                          <td><input type="checkbox" name="question6" value="A"></td>
+                        <td><input type="checkbox" name="question6" value="B"></td>
+                        <td><input type="checkbox" name="question6" value="C"></td>
+                        <td><input type="checkbox" name="question6" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                         <td><input type="checkbox" name="question7" value="A"></td>
+                        <td><input type="checkbox" name="question7" value="B"></td>
+                        <td><input type="checkbox" name="question7" value="C"></td>
+                        <td><input type="checkbox" name="question7" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                          <td><input type="checkbox" name="question8" value="A"></td>
+                        <td><input type="checkbox" name="question8" value="B"></td>
+                        <td><input type="checkbox" name="question8" value="C"></td>
+                        <td><input type="checkbox" name="question8" value="D"></td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                         <td><input type="checkbox" name="question9" value="A"></td>
+                        <td><input type="checkbox" name="question9" value="B"></td>
+                        <td><input type="checkbox" name="question9" value="C"></td>
+                        <td><input type="checkbox" name="question9" value="D"></td>
+                    </tr>
+  <td>10</td>
+                         <td><input type="checkbox" name="question10" value="A"></td>
+                        <td><input type="checkbox" name="question10" value="B"></td>
+                        <td><input type="checkbox" name="question10" value="C"></td>
+                        <td><input type="checkbox" name="question10" value="D"></td>
+                    </tr>
+                </table>
+                <table style="width:100%">
+                    <tr>
+                        <td></td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td><input type="checkbox" name="question11" value="A"></td>
+                        <td><input type="checkbox" name="question11" value="B"></td>
+                        <td><input type="checkbox" name="question11" value="C"></td>
+                        <td><input type="checkbox" name="question11" value="D"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td><input type="checkbox" name="question12" value="A"></td>
+                        <td><input type="checkbox" name="question12" value="B"></td>
+                        <td><input type="checkbox" name="question12" value="C"></td>
+                        <td><input type="checkbox" name="question12" value="D"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td><input type="checkbox" name="question13" value="A"></td>
+                        <td><input type="checkbox" name="question13" value="B"></td>
+                        <td><input type="checkbox" name="question13" value="C"></td>
+                        <td><input type="checkbox" name="question13" value="D"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td><input type="checkbox" name="question14" value="A"></td>
+                        <td><input type="checkbox" name="question14" value="B"></td>
+                        <td><input type="checkbox" name="question14" value="C"></td>
+                        <td><input type="checkbox" name="question14" value="D"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td><input type="checkbox" name="question15" value="A"></td>
+                        <td><input type="checkbox" name="question15" value="B"></td>
+                        <td><input type="checkbox" name="question15" value="C"></td>
+                        <td><input type="checkbox" name="question15" value="D"></td>
+                        
+                    </tr>
+ <tr>
+                        <td></td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        
+                    </tr>
+                   
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td><input type="checkbox" name="question16" value="A"></td>
+                        <td><input type="checkbox" name="question16" value="B"></td>
+                        <td><input type="checkbox" name="question16" value="C"></td>
+                        <td><input type="checkbox" name="question16" value="D"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td><input type="checkbox" name="question17" value="A"></td>
+                        <td><input type="checkbox" name="question17" value="B"></td>
+                        <td><input type="checkbox" name="question17" value="C"></td>
+                        <td><input type="checkbox" name="question17" value="D"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td><input type="checkbox" name="question18" value="A"></td>
+                        <td><input type="checkbox" name="question18" value="B"></td>
+                        <td><input type="checkbox" name="question18" value="C"></td>
+                        <td><input type="checkbox" name="question18" value="D"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td><input type="checkbox" name="question19" value="A"></td>
+                        <td><input type="checkbox" name="question19" value="B"></td>
+                        <td><input type="checkbox" name="question19" value="C"></td>
+                        <td><input type="checkbox" name="question19" value="D"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td><input type="checkbox" name="question20" value="A"></td>
+                        <td><input type="checkbox" name="question20" value="B"></td>
+                        <td><input type="checkbox" name="question20" value="C"></td>
+                        <td><input type="checkbox" name="question20" value="D"></td>
+                      
+                    </tr>
+ <tr>
+                        <td></td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        
+                     <tr>
+                        <td>21</td>
+                        <td><input type="checkbox" name="question21" value="A"></td>
+                        <td><input type="checkbox" name="question21" value="B"></td>
+                        <td><input type="checkbox" name="question21" value="C"></td>
+                        <td><input type="checkbox" name="question21" value="D"></td>
+                      
+                    </tr>
+                     <tr>
+                        <td>22</td>
+                        <td><input type="checkbox" name="question22" value="A"></td>
+                        <td><input type="checkbox" name="question22" value="B"></td>
+                        <td><input type="checkbox" name="question22" value="C"></td>
+                        <td><input type="checkbox" name="question22" value="D"></td>
+                      
+                    </tr>
+                     <tr>
+                        <td>23</td>
+                        <td><input type="checkbox" name="question23" value="A"></td>
+                        <td><input type="checkbox" name="question23" value="B"></td>
+                        <td><input type="checkbox" name="question23" value="C"></td>
+                        <td><input type="checkbox" name="question23" value="D"></td>
+                      
+                    </tr>
+                     <tr>
+                        <td>24</td>
+                        <td><input type="checkbox" name="question24" value="A"></td>
+                        <td><input type="checkbox" name="question24" value="B"></td>
+                        <td><input type="checkbox" name="question24" value="C"></td>
+                        <td><input type="checkbox" name="question24" value="D"></td>
+                      
+                    </tr>
+                     <tr>
+                        <td>25</td>
+                        <td><input type="checkbox" name="question25" value="A"></td>
+                        <td><input type="checkbox" name="question25" value="B"></td>
+                        <td><input type="checkbox" name="question25" value="C"></td>
+                        <td><input type="checkbox" name="question25" value="D"></td>
+                      
+                    </tr>
+                </table>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    </div>
+
+
+<script>
+
+const pdfViewer = document.getElementById('pdfViewer');
+pdfViewer.innerHTML = `<iframe src="https://docs.google.com/document/d/e/2PACX-1vTlHBE62cidnP0NR_iVJw4YNUcSAUA5AuT1CJfoDQefcneONCXmlI-7RxkXGMY_FyYzDZ7kzYqh_U1r/pub?embedded=true"" width="100%" style="height: calc(100vh - 10px);"></iframe>`;
+// Fetch answer key from GitHub repository
+async function fetchAnswerKey() {
+  try {
+    const response = await fetch('https://github.com/athulu4u/edxam/blob/bd8a7f1691cfd3acd5edcbb13bc29ffbf932fa21/answerKey.json'); // Replace with your actual repo URL
+    const answerKey = await response.json();
+    return answerKey;
+  } catch (error) {
+    console.error('Error fetching answer key:', error);
+    return {}; // Return an empty object if there's an error
+  }
+}
+
+</script>
+    <script src="scripts1.js"></script>
+</body>
+</html>

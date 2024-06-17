@@ -1,0 +1,171 @@
+/* Updated CSS with green, yellow, and blue colors */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9; /* Light gray background */
+}
+#timer {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Center the timer horizontally */
+  transform: translateX(-50%); /* Center the timer correctly */
+  width: auto; /* Adjust the width as needed */
+  z-index: 900; /* Ensure it's above other content */
+  color: red; /* Set text color to red */
+  font-weight: bold; /* Make the text bold */
+  background-color: #f0f0f0; /* Optional: Background color */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Updated styling for PDF and Exam sections */
+.pdf-section {
+  width: 75%; /* Adjust the width to cover 75% of the container */
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f0f8ff; /* Light blue background */
+  border-right: 1px solid #ccc;
+}
+
+.exam-section {
+  width: 25%; /* Adjust the width to cover 25% of the container */
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #f5f5dc; /* Beige background */
+}
+
+/* Fixed Top Bar */
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0; /* Fixed the typo, changed left: 100; to left: 0; */
+  width: 100%;
+  z-index: 900; /* Ensure it's above other content */
+  color: red; /* Set text color to red */
+}
+
+/* PDF Viewer Styling */
+#pdfViewer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0fff0; /* Honeydew background for table cells */
+  color: #333; /* Dark gray text color */
+}
+
+/* Header Cells Styling */
+td.name,
+td.exam,
+td.date {
+  font-weight: bold;
+  background-color: #ffffe0; /* Light yellow background for header cells */
+}
+
+/* Additional styling for a more modern look */
+
+/* Use a more modern font */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Add some padding around the container */
+.container {
+  padding: 20px;
+}
+
+/* Style the PDF section title */
+.pdf-section h2 {
+  color: #333; /* Dark gray text color */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the exam section title */
+.exam-section h2 {
+  color: #333; /* Dark gray text color */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the form */
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style the input fields */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style the submit button */
+form button[type="submit"] {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the table */
+table {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table header cells */
+td.name,
+td.exam,
+td.date {
+  background-color: #e9ecef; /* Light gray background for header cells */
+}
+
+/* Style the table rows */
+table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+/* Style the table data cells */
+td {
+  font-size: 14px;
+}
